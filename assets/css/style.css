@@ -14,15 +14,20 @@ body {
 }
 
 a {
-  color: #0563bb;
+  color: #45505b;
 }
 
 a:hover {
-  color: #067ded;
+  color: #9ca1a7;
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -37,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0563bb;
+  background: #45505b;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #0678e3;
+  background: #9ca1a7;
   transition: background 0.2s ease-in-out;
 }
 
@@ -75,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #45505b;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -191,21 +196,27 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   color: #fff;
-  background: #0563bb;
+  background: #45505b;
 }
 
-.nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
+.nav-menu a:hover span,
+.nav-menu .active > a span,
+.nav-menu li:hover > a span {
   color: #fff;
 }
 
-.nav-menu a:hover, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu li:hover > a {
   width: 100%;
   color: #fff;
 }
 
-.nav-menu a:hover span, .nav-menu li:hover > a span {
+.nav-menu a:hover span,
+.nav-menu li:hover > a span {
   display: block;
 }
 
@@ -238,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #0563bb;
+  color: #45505b;
 }
 
 /*--------------------------------------------------------------
@@ -247,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/manisha_beach.JPG") top right no-repeat;
+  background: url("../img/mBG.png") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -284,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p span {
-  color: #ffbf7f;
+  color: #45505b;
   letter-spacing: 1px;
 }
 
@@ -302,7 +313,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .social-links a:hover {
-  color: #ffbf7f;
+  /* color: #ffbf7f; */
+  color: #9ca1a7;
 }
 
 @media (max-width: 992px) {
@@ -344,7 +356,7 @@ section {
 }
 
 .section-title h2::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 120px;
@@ -354,17 +366,18 @@ section {
   left: calc(50% - 60px);
 }
 
+/* Adds thicker underline for titles
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #45505b;
   bottom: 0;
   left: calc(50% - 20px);
 }
-
+*/
 .section-title p {
   margin-bottom: 0;
 }
@@ -390,7 +403,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #0563bb;
+  color: #45505b;
 }
 
 .about .content p:last-child {
@@ -415,7 +428,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
+  background: #9ca1a7;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -436,7 +449,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -466,8 +479,8 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
-  background-color: #0563bb;
+  transition: 0.9s;
+  background-color: #9ca1a7;
 }
 
 /*--------------------------------------------------------------
@@ -484,7 +497,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #45505b;
   position: relative;
 }
 
@@ -494,7 +507,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #9ca1a7;
   margin-bottom: 10px;
 }
 
@@ -528,7 +541,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #9ca1a7;
 }
 
 /*--------------------------------------------------------------
@@ -561,8 +574,9 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: #45505b;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -662,7 +676,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #148af9;
+  color: #45505b;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -715,7 +729,7 @@ section {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #0078ff;
+  background-color: #45505b;
   border-radius: 4px;
 }
 
@@ -723,14 +737,14 @@ section {
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .1px;
+  font-size: 0.7rem;
+  letter-spacing: 0.1px;
   margin-bottom: 0;
 }
 
 .card-blog .card-title {
   font-size: 1.3rem;
-  margin-top: .6rem;
+  margin-top: 0.6rem;
 }
 
 .card-blog .card-description {
@@ -783,7 +797,7 @@ section {
 }
 
 .blog-wrapper .post-meta ul {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #45505b;
   margin-top: 1rem;
 }
 
@@ -793,7 +807,7 @@ section {
 }
 
 .blog-wrapper .post-meta ul a {
-  color: #0078ff;
+  color: #45505b;
 }
 
 .blog-wrapper .post-meta ul span {
@@ -801,7 +815,7 @@ section {
 }
 
 .blog-wrapper .blockquote {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #45505b;
   padding: 18px;
   font-style: italic;
 }
@@ -838,7 +852,7 @@ section {
 }
 
 .box-comments .list-comments a {
-  color: #0078ff;
+  color: #45505b;
 }
 
 .box-comments .list-comments span {
@@ -854,7 +868,7 @@ section {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #0078ff;
+  border-left: 5px solid #45505b;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -871,7 +885,7 @@ section {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #0078ff;
+  background-color: #45505b;
   top: 20px;
 }
 
@@ -882,8 +896,8 @@ section {
 }
 
 .sidebar-search .btn-search {
-  background-color: #0078ff;
-  border-color: #0078ff;
+  background-color: #45505b;
+  border-color: #45505b;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -891,16 +905,15 @@ section {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
-  padding: .2rem .6rem;
-  margin-bottom: .5rem;
+  background-color: #45505b;
+  padding: 0.2rem 0.6rem;
+  margin-bottom: 0.5rem;
   border-radius: 15px;
 }
 
 .widget-tags ul li a {
   color: #fff;
 }
-
 
 /*--------------------------------------------------------------
 # Contact
@@ -912,11 +925,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #45505b;
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #f2f3f5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -939,12 +952,15 @@ section {
   color: #728394;
 }
 
-.contact .info .email, .contact .info .phone {
+.contact .info .email,
+.contact .info .phone {
   margin-top: 40px;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #0563bb;
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #45505b;
   color: #fff;
 }
 
@@ -1007,7 +1023,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
@@ -1022,7 +1039,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #0563bb;
+  background: #45505b;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1031,7 +1048,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #0678e3;
+  background: #9ca1a7;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1065,7 +1082,8 @@ section {
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -1080,7 +1098,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #0563bb !important;
+  background-color: #45505b !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1148,7 +1166,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #45505b;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1161,7 +1179,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #9ca1a7;
   color: #fff;
   text-decoration: none;
 }
