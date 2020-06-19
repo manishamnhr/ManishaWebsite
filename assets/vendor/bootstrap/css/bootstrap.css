@@ -114,6 +114,11 @@ ul ol {
   margin-bottom: 0;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 dt {
   font-weight: 700;
 }
